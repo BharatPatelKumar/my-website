@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Educational Website</h1>
+        <p>Showcasing the Best Research Papers & Novels</p>
+    </header>
+
+    <section class="products">
+        <div class="product">
+            <img src="images/book1.jpg" alt="Book 1">
+            <h2>Book Title 1</h2>
+            <p>Short description of the book.</p>
+        </div>
+
+        <div class="product">
+            <img src="images/book2.jpg" alt="Book 2">
+            <h2>Book Title 2</h2>
+            <p>Short description of the book.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact us: info@educationalwebsite.com</p>
+    </footer>
+</body>
+</html>
+<section class="products">
+    <div class="product">
+        <img src="images/book1.jpg" alt="Book 1">
+        <h2>Book Title 1</h2>
+        <p>Short description of the book.</p>
+    </div>
+
+    <div class="product">
+        <img src="images/book2.jpg" alt="Book 2">
+        <h2>Book Title 2</h2>
+        <p>Short description of the book.</p>
+    </div>
+
+    <div class="product">
+        <img src="images/book3.jpg" alt="Book 3">
+        <h2>Book Title 3</h2>
+        <p>Short description of the book.</p>
+    </div>
+</section>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/your-email" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+<meta name="description" content="Best educational website to showcase research papers and books.">
+<meta name="keywords" content="Education, Research Papers, Books, Learning, School Resources">
+<meta name="author" content="Your Name">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<img src="images/book1.webp" alt="Book 1">
+<img src="images/book1.webp" loading="lazy" alt="Book 1">
+<img src="images/book2.webp" loading="lazy" alt="Book 2">
+<img src="images/book3.webp" loading="lazy" alt="Book 3">
+<button class="button">Click Me</button>
+<div class="card">
+    <img src="images/book1.jpg" alt="Book">
+    <h3>Best Selling Book</h3>
+    <p>₹499 only</p>
+</div>
+<h1 class="gradient-text">Welcome to Our Educational Store</h1>
+<div id="particles-js"></div>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<div id="particles-js"></div>

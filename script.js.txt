@@ -1,0 +1,22 @@
+document.addEventListener("DOMContentLoaded", function () {
+    alert("Welcome to our Educational Website!");
+});
+document.addEventListener("DOMContentLoaded", function () {
+    alert("Welcome to our Educational Website! Explore Our Books & Research Papers.");
+});
+document.documentElement.style.scrollBehavior = "smooth";
+particlesJS('particles-js', {
+    particles: {
+        number: { value: 80 },
+        size: { value: 3 },
+        move: { speed: 2 }
+    }
+});
+particlesJS("particles-js", {
+    particles: {
+        number: { value: 80 },
+        size: { value: 3 },
+        move: { speed: 3 },
+        color: { value: "#ffffff" }
+    }
+});
